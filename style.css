@@ -1,66 +1,66 @@
 body {
-  margin: 5% 10%;
-  background-color: rgb(29,161,242);
+    margin: 5% 10%;
+    background-color: rgb(69, 103, 125);
 }
 
 .like-glyph {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 body h1 {
-  color: #FFF;
+    color: #FFF;
 }
 
 body > header {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 article.media-post {
-  border: solid 1px #000;
-  margin: 2% 3%;
-  background-color: #fff;
+    border: solid 1px #000;
+    margin: 2% 3%;
+    background-color: #fff;
 }
 
 article.media-post > p {
-  background-color: rgba(0,123,255,0.25);
-  padding: 1em 2em;
+    background-color: rgba(0, 123, 255, 0.25);
+    padding: 1em 2em;
 }
 
 article.media-post > header {
-  padding: 1em 2em;
-  background-color: rgb(225,232,237);
+    padding: 1em 2em;
+    background-color: rgb(225, 232, 237);
 }
 
 article.media-post > footer {
-  color: rgb(170,184,194);
+    color: rgb(170, 184, 194);
 }
 
 article.media-post > footer ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #modal {
-  border-radius: 10px;
-  background-color: maroon;
-  color: white;
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
 
-  margin: 1em;
-  padding: 1em;
+    margin: 1em;
+    padding: 1em;
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #modal p {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .activated-heart {
-  color: red;
+    color: red;
 }
 
 .hidden {
-  visibility: hidden;
+    visibility: hidden;
 }
